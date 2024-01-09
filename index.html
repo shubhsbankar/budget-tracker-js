@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <meta charset="UTF-8">
+         <title>Easest Way To Track Your Transactions!</title>
+         <link rel="stylesheet" href="./style.css">
+         <link rel="icon" type="image/x-icon" href="./images/icons8-webtoon-cloud-120.png">
+    </head>
+    <body>
+        <main>
+            <div class="outer-wrap">
+                <div class="inner-wrap">
+           <section class="heading">
+            <p class="title">Webtoon</p>
+            <p class="subtitle">Easest Way To Track Your Transactions</p>
+           </section>
+           <section class="transactions">
+            <div class="add-transactions">
+             <p>Add Transaction</p>
+             <form class="transaction-form">
+                <input type="text" class="tarnsaction-label" name="label" placeholder="Source">
+                <input type="number" class="transation amount" name="amount" placeholder="Amount">
+                <input type="submit" class="transaction-submit" value="Add Transaction">
+             </form>
+            </div>
+            <div class="statistics">
+            <p class="statistics-heading">Statistics</p>
+            <div class="balance"><p class="balance">Balance: </p></div>
+            <div class="income"><p class="income">Income: </p></div>
+            <div class="expense"><p class="expense">Expense: </p></div>
+            </div>
+           </section>
+           <section class="trasaction-history">
+            <p class="history-heading">Transaction History</p>
+            <div class="records">
+            <div class="income">
+                <p class="income-heading">Income</p>
+                <ui class="income-list">
+                </ui>
+            </div>
+            <div class="expense">
+                <p class="expense-heading">Expense</p>
+                <ui class="expense-list">
+                </ui>
+            </div>
+        </div>
+           </section>
+        </div>
+        </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
